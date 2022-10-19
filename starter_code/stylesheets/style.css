@@ -116,6 +116,7 @@ img {
   flex-direction: column;
   gap: 20px;
   align-items: flex-start;
+  padding-bottom: 80px;
 }
 
 .buttonsWelcome {
@@ -127,11 +128,41 @@ img {
 
 .hidden {
   display: none;
+  background-color: #540B51;
+  border: none;
 }
 
 .hero {
   display: flex;
   justify-content: flex-end;
+}
+
+#search {
+  background: #540b51;
+  border: none;
+}
+
+.fakebutton {
+  border: 1px solid;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  white-space: nowrap;
+}
+
+.tryfree {
+  background: white;
+  color: #540b51;
+  padding: 0.475rem 1.05rem;
+}
+
+input[type="button"] {
+  cursor: pointer;
+}
+
+#barradireita {
+  display: flex;
+  gap: 20px;
 }
 
 /* Iteração 1 */
@@ -181,9 +212,9 @@ img {
 
   .icones {
     text-align: left;
-
+  }
 }
-}
+git
 
 /* Iteração 3 */
 @media all and (min-width: 1025px) and (max-width: 1028px) {
