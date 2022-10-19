@@ -31,10 +31,6 @@ a {
   text-decoration: none;
 }
 
-input[type="button"] {
-  color: #4285f4;
-}
-
 nav {
   width: 100%;
 }
@@ -217,7 +213,7 @@ input[type="button"] {
 git
 
 /* Iteração 3 */
-@media all and (min-width: 1025px) and (max-width: 1028px) {
+@media all and (min-width: 1025px) and (max-width: 1440px) {
   .buttonsWelcome {
     flex-direction: column;
   }
@@ -227,7 +223,7 @@ git
 }
 
 /* Iteração 4 */
-@media all and (min-width: 1029px) {
+@media all and (min-width: 1441px) {
   .buttonsWelcome {
     flex-direction: row;
   }
